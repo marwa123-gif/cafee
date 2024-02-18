@@ -23,6 +23,33 @@ a {
   color: white;
 }
 
+p {
+  margin-bottom: 10px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 15px 25px;
+  border-radius: 30px;
+  font-weight: 700;
+  font-size: 14px;
+}
+
+.btn-primary {
+  background: white;
+  color: #222;
+}
+
+.btn-primary:hover {
+  background: #222;
+  color: white;
+}
+
+.my-10 {
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+
 /* header */
 .header {
   background: #333;
@@ -50,9 +77,45 @@ a {
   padding: 20px;
   display: block;
 }
+
 .header nav ul li a:hover {
   background: #444;
 }
-.active{
+
+.active {
   background: #444;
+}
+
+/* vp */
+.vp {
+  height: 700px;
+  background: url(../images/cafe1.jpg) center center/cover;
+  text-align: center;
+  /* background-position: center center; */
+  /* background-size: cover;  */
+}
+
+.vp-content {
+  max-width: 600px;
+  padding-top: 170px;
+  color: white;
+  display: block;
+  margin: auto;
+}
+
+.vp-content h1 {
+  font-size: 50px;
+}
+
+.separator {
+  background: #111;
+  width: 100px;
+  height: 10px;
+  margin: 20px auto;
+}
+
+.vp-content p {
+  font-size: 18px;
+  letter-spacing: 0.5px;
+  line-height: 1.9em;
 }
