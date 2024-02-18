@@ -10,6 +10,7 @@
 /* general */
 body {
   font-family: "Open Sans", sans-serif;
+  color: #222;
 }
 
 h1,
@@ -48,6 +49,12 @@ p {
 .my-10 {
   margin-top: 10px;
   margin-bottom: 10px;
+}
+
+.container {
+  max-width: 1000px;
+  display: block;
+  margin: auto;
 }
 
 /* header */
@@ -118,4 +125,16 @@ p {
   font-size: 18px;
   letter-spacing: 0.5px;
   line-height: 1.9em;
+}
+
+/* features */
+.feature {
+  float: left;
+  width: 50%;
+}
+
+.features {
+  padding: 100px 0px;
+  overflow: auto;
+  text-align: center;
 }
