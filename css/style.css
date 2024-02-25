@@ -127,6 +127,7 @@ strong {
 
 .vp-content {
   max-width: 600px;
+  padding: 20px;
   padding-top: 170px;
   color: white;
   display: block;
@@ -134,7 +135,7 @@ strong {
 }
 
 .vp-content h1 {
-  font-size: 50px;
+  font-size: 3rem;
 }
 
 .separator {
@@ -170,7 +171,7 @@ strong {
 
 /* reserve */
 .Reserve {
-  padding: 100px 0px;
+  padding: 100px 20px;
   text-align: center;
 }
 
@@ -184,7 +185,7 @@ footer {
 
 footer p {
   font-weight: 700;
-  line-height: 0.7em;
+  /* line-height: 0.7em; */
 
 }
 
@@ -238,6 +239,7 @@ footer p {
 .contact-form-container {
   max-width: 600px;
   margin: auto;
+  padding: 20px;
 }
 
 .contact-form-container form label {
